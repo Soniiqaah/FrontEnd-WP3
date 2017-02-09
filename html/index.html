@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="form.js"></script>
+
+</head>
+<body ng-app="myWeatherApp">
+
+
+<header><h1>SMHI</h1></header>
+<input type="text" id="search1" placeholder="Search stationId">
+<button>Log out</button>
+
+<div ng-view class="main">
+    <!-- Här laddas mina sidor in -->
+</div>
+
+
+<!-- Skapa tabell och sökfunktion med filtrering/sortering med checkbox-->
+
+
+</body>
+</html>
