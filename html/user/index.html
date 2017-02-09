@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>index</title>
+    <title>Homepage</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-route.min.js"></script>
+
     <script src="app.js"></script>
     <script src="form.js"></script>
+
+    <link rel="stylesheet" href="../../css/index.css">
+
 
 </head>
 <body ng-app="myWeatherApp">
 
 
-<header><h1>SMHI</h1></header>
+<header><h1>SMHI tabell</h1></header>
 <input type="text" id="search1" placeholder="Search stationId">
-<button>Log out</button>
+
+<fieldset>
+
+</fieldset>
+<button>Logout</button>
 
 <div ng-view class="main">
     <!-- Här laddas mina sidor in -->

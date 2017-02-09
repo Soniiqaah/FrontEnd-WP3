@@ -15,13 +15,13 @@ myWeatherApp.config(function ($routeProvider) {
 
         // route for the crud page
         .when('/crud', {
-            templateUrl: 'html/crud.html',
+            templateUrl: 'html/edit.html',
             controller: 'crudController'
         })
 
         // route for the index page
         .when('/index', {
-            templateUrl: 'html/index.html',
+            templateUrl: 'html/edit.html',
             controller: 'indexController'
         });
 
