@@ -1,9 +1,72 @@
+* {
+}
+
+h1 {
+    display: inline-block;
+
+}
+
 .start-logo {
+    width: 100%;
+    height: auto;
+
+}
+
+.field {
     width: 100%;
     height: auto;
 }
 
-.field{
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
     width: 100%;
-    height: auto;
+}
+
+.clearBtn {
+    background-color: darkgrey;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#search1 {
+    border-radius: 1em;
+    border: none;
+    padding: 5px;
+    margin: auto;
+    display: inline-block;
+}
+
+.logBtn {
+    background-color: darkgrey;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.checkbox-form {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#radio-station-id {
+
+}
+
+#radio-station-name {
+
 }
